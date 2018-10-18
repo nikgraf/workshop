@@ -1,0 +1,12 @@
+# import Restaurant from 'restaurants.graphql'
+# import User from 'users.graphql'
+# import LoginSuccess from 'auth.graphql'
+
+type Query {
+  restaurants: [Restaurant!]!
+}
+
+type Mutation {
+  createRestaurant(restaurant: RestaurantInput!): Restaurant!
+  login(email: String!, password: String!): LoginSuccess!
+}

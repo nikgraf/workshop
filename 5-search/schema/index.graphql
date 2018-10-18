@@ -1,0 +1,5 @@
+# import Restaurant from 'restaurants.graphql'
+
+type Query {
+  searchRestaurants(query: String!): [Restaurant!]!
+}
