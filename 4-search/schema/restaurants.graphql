@@ -1,0 +1,4 @@
+type Restaurant {
+  id: ID!
+  name: String!
+}

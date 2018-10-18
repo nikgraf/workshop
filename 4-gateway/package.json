@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "apollo-link-http": "^1.5.5",
+    "apollo-server": "^2.1.0",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.1",
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
